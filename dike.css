@@ -1,0 +1,79 @@
+body, footer{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header{
+    background-color: rgb(102, 219, 112);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1{
+    color: black;
+    font-size: 40px;
+}
+
+h1, h2 {
+    
+font-family: 'Press Start 2P', cursive;
+}
+      
+
+header img{
+    border-radius: 150px;
+    width: 300px;
+    border: 10px solid white;
+}
+
+main, footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img{
+    width: 35%;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(24, 139, 6);
+    font-size: 35px;
+}
+
+.inline-images img{
+    display: inline-block;
+    margin-right: 10px; /* İki resim arasındaki boşluk */
+    vertical-align: top; /* Resimlerin üst hizalanması */
+}
+    
+.about-me {
+    display: flex;
+    align-items: flex-start; /* Resim ve yazıyı üst hizalayın */
+    gap: 20px; /* Resim ve yazı arasındaki boşluk */
+}
+
+.about-me img {
+    max-width: 150px; /* Resmin maksimum genişliği */
+    height: auto; /* Oranları koruyarak yüksekliği otomatik ayarlayın */
+}
+
+a {
+    color: rgb(24, 139, 6);
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(5, 64, 10);
+}
+
+footer{
+    background-color: rgb(102, 219, 112);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
