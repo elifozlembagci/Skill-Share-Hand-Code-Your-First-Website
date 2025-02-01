@@ -58,7 +58,7 @@ h2{
 }
 
 .about-me img {
-    max-width: 150px; /* Resmin maksimum genişliği */
+    max-width: 300px; /* Resmin maksimum genişliği */
     height: auto; /* Oranları koruyarak yüksekliği otomatik ayarlayın */
 }
 
@@ -69,6 +69,19 @@ a {
 a:hover {
     color: white;
     background-color: rgb(5, 64, 10);
+}
+
+.my-friend img {
+    width: 350px;  /* Resimlerin genişliğini sabitle */
+    height: 350px; /* Resimlerin yüksekliğini sabitle */
+    object-fit: cover; /* Resmin orantılı şekilde kesilmesini sağlar */
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
 }
 
 footer{
